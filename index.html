@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Cipher Encryption</title>
+  <link rel="stylesheet" href="style.css">
+  <meta charset="utf-8">
+  <style>
+    body {
+      font-family: sans-serif;
+    }
+    h1 {
+      margin-bottom: 20px;
+    }
+    label {
+      display: block;
+      margin-bottom: 10px;
+    }
+    input[type="file"] {
+      margin-bottom: 20px;
+    }
+    button {
+      padding: 10px 20px;
+      border-radius: 5px;
+      border: none;
+      background-color: #4CAF50;
+      color: #fff;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #3e8e41;
+    }
+    .output {
+      margin-top: 20px;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <h1>Cipher Encryption</h1>
+  <form id="form">
+    <label for="file">Select a plain text file to encrypt:</label>
+    <input type="file" id="file" name="file">
+    <button type="submit" id="encrypt-btn">Encrypt</button>
+  </form>
+  <div class="output" id="output"></div>
+  <script src="script.js"></script>
+</body>
+</html>
